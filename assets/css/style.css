@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    background:black;
+    color: rgb(194, 194, 194);
+}
+
+#logoViajesChile {
+    width: 3.5rem;
+    height: auto;
+}
+
+.card {
+    border-color: grey;
+}
+
+.card, .bgViajesChile {
+    background-color: #17A3B8;
+}
+
+.logoTitle {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+.colIconBlock {
+    border-radius: 4px;
+}
+
+.sectionTitle {
+    border-bottom: #17A3B8 1px solid;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav-link {
+    font-weight: 500;
+}

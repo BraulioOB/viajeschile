@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN Bootstrap 5 y styles.css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Script FontAwesome -->
+    <script src="https://kit.fontawesome.com/5678baeef8.js" crossorigin="anonymous"></script>
+
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+    <!-- JS Bootstrap 5 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <nav id="viajes-chile-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top p-0">
+        <div class="container bg-transparent">
+            <a class="navbar-brand pt-3" href="#">
+                <img id="logoViajesChile" src="./assets/img/viajes.svg" alt="" srcset="">
+                <span class="logoTitle">Viajes Chile</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarViajesChile"
+                aria-controls="navbarViajesChile" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-end justify-content-end" id="navbarViajesChile">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#" data-toggle="tooltip" data-bs-placement="bottom" title="haz clic para ir al inicio">Inicio</a>
+                    <a class="nav-link d-none d-md-block" href="#whoWeAre" data-toggle="tooltip" data-bs-placement="bottom" title="conoce más sobre Viajes Chile">Quienes Somos</a>
+                    <a class="nav-link" href="#topSection" data-toggle="tooltip" data-bs-placement="bottom" title="revisa nuestros mejores destinos">Destacados</a>
+                    <a class="nav-link" href="#contactSection" data-toggle="tooltip" data-bs-placement="bottom" title="presiona para resolver todas tus dudas">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="heroSection">
+        <div id="photoSlide" class="container-fluid p-0">
+            <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="whoWeAre">
+        <div class="container text-center mt-5 d-none d-md-block">
+            <div class="sectionTitle pb-2">
+                <h2>¿Quiénes Somos?</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 my-5">
+                <div>
+                    <div class="bgViajesChile colIconBlock d-flex justify-content-center py-2">
+                        <i class="fas fa-solid fa-plane fa-3x"></i>
+                    </div>
+                    <div class="text-start mt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet amet laboriosam nemo temporibus, aut possimus? Asperiores iste voluptas itaque minus sit veniam deleniti, quisquam ex eligendi, eius ipsa ullam eaque. Corporis doloremque, rem repellendus totam fuga assumenda eligendi accusamus magnam iusto sit porro maxime vitae asperiores explicabo nobis ipsum eos molestias! Nobis tempore nulla soluta ipsam tenetur veritatis aperiam iste commodi recusandae. Provident, sunt quibusdam! Culpa in minus ducimus dolores neque quisquam voluptas ipsa reiciendis repudiandae consequatur vel perferendis, temporibus, delectus quis deleniti. Nihil, excepturi aliquid soluta dolorem ad vel doloribus sed optio veritatis repudiandae!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bgViajesChile colIconBlock d-flex justify-content-centerpy-2 d-lg-none">
+                        <i class="fas fa-solid fa-mountain fa-3x"></i>
+                    </div>
+                    <div class="text-start mb-3 mt-3 mt-lg-0">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet amet laboriosam nemo temporibus, aut possimus? Asperiores iste voluptas itaque minus sit veniam deleniti, quisquam ex eligendi, eius ipsa ullam eaque. Corporis doloremque, rem repellendus totam fuga assumenda eligendi accusamus magnam iusto sit porro maxime vitae asperiores explicabo nobis ipsum eos molestias! Nobis tempore nulla soluta ipsam tenetur veritatis aperiam iste commodi recusandae. Provident, sunt quibusdam! Culpa in minus ducimus dolores neque quisquam voluptas ipsa reiciendis repudiandae consequatur vel perferendis, temporibus, delectus quis deleniti. Nihil, excepturi aliquid soluta dolorem ad vel doloribus sed optio veritatis repudiandae!</p>
+                    </div>
+                    <div class="bgViajesChile colIconBlock d-flex justify-content-center py-2 d-none d-lg-block">
+                        <i class="fas fa-solid fa-mountain fa-3x"></i>
+                    </div>
+                </div>
+                <div>
+                    <div class="bgViajesChile colIconBlock d-flex justify-content-center py-2">
+                        <i class="fas fa-solid fa-route fa-3x"></i>
+                    </div>
+                    <div class="text-start mt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet amet laboriosam nemo temporibus, aut possimus? Asperiores iste voluptas itaque minus sit veniam deleniti, quisquam ex eligendi, eius ipsa ullam eaque. Corporis doloremque, rem repellendus totam fuga assumenda eligendi accusamus magnam iusto sit porro maxime vitae asperiores explicabo nobis ipsum eos molestias! Nobis tempore nulla soluta ipsam tenetur veritatis aperiam iste commodi recusandae. Provident, sunt quibusdam! Culpa in minus ducimus dolores neque quisquam voluptas ipsa reiciendis repudiandae consequatur vel perferendis, temporibus, delectus quis deleniti. Nihil, excepturi aliquid soluta dolorem ad vel doloribus sed optio veritatis repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="topSection">
+        <div class="container mt-3 mt-md-5">
+            <div class="sectionTitle text-center">
+                <h2>Destacados</h2>
+            </div>
+            <div class="row row-cols-md-2 row-cols-lg-4 gy-3 gy-md-5 mt-3 mt-md-0">
+                <div class="d-flex justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="card p-0">
+                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, culpa quae quam ea illum, ut repellendus molestias sequi quos voluptatibus sit quod dicta, id quas magnam eos amet at similique.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- corregir foto -->
+                <div class="d-flex justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="card p-0">
+                            <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, culpa quae quam ea illum, ut repellendus molestias sequi quos voluptatibus sit quod dicta, id quas magnam eos amet at similique.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="card p-0"">
+                            <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, culpa quae quam ea illum, ut repellendus molestias sequi quos voluptatibus sit quod dicta, id quas magnam eos amet at similique.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="card p-0">
+                            <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, culpa quae quam ea illum, ut repellendus molestias sequi quos voluptatibus sit quod dicta, id quas magnam eos amet at similique.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactSection">
+        <div class="container my-5 pt-2 pb-3 mt-3 mt-md-5">
+            <div class="sectionTitle text-center">
+                <h2>Contacto</h2>
+            </div>
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/gcxvkL8O?typeform-medium=embed-snippet"
+                style="width: 100%; height: 500px;">
+            </div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid bgViajesChile">
+            <div class="container py-3">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <span class="logoTitle text-center text-md-start text-light">Viajes Chile</span>
+                    <div class="d-flex justify-content-center justify-content-md-end">
+                        <div class="row row-cols-4 ">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github-square fa-3x"></i>
+                            </a>
+                            <a href="https://cl.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-twitter-square fa-3x "></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook-square fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-dark">
+                    <h5 class="modal-title" id="staticBackdropLabel">Lorem ipsum dolor sit amet.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modalBody" class="modal-body text-dark"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header text-black-50 bg-transparent">
+                <i class="fas fa-percent fa-9x display-1 me-3 text-warning align-self-end"></i>
+                <strong class="me-auto text-dark display-6">-20% off primer viaje</strong>
+                <button id="closeAd" type="button" class="btn-close align-self-start" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-dark">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, unde accusantium? Ducimus voluptatem veniam cupiditate odit porro consectetur earum necessitatibus!
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery 3.x y script.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
