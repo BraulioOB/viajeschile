@@ -11,8 +11,15 @@ body {
 }
 
 .card {
+    transition: 300ms;
     border-color: grey;
     height: 100%;
+}
+
+.card:hover {
+    transition: 300ms;
+    border: white solid 1px;
+    box-shadow: 0px 0px 25px rgb(155, 155, 155);
 }
 
 .card img {
@@ -54,12 +61,12 @@ a:hover {
     font-weight: 500;
 }
 
-i {
+footer i {
     transition: 300ms;
     color: whitesmoke;
 }
 
-i:hover {
+footer i:hover {
     transition: 300ms;
     color: white;
     text-shadow: 0px 0px 15px white;
