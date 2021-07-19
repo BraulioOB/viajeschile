@@ -15,6 +15,7 @@ $(document).ready(function () {
     });
 });
 
+// Muestra tooltip en el menu del navbar
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
@@ -25,7 +26,7 @@ setTimeout(function () {
     $('#liveToast').addClass("show");
 }, 3000);
 
-// Elimina el componente toast
+// Elimina el componente toast al hacer clic en cerrar
 $("#closeAd").click(function () { 
     $("#liveToast").removeClass("show");
     $('#liveToast').addClass("hide");

@@ -71,3 +71,12 @@ footer i:hover {
     color: white;
     text-shadow: 0px 0px 15px white;
 }
+
+.paragraph:hover {
+    transition: 300ms;
+    color: white;
+}
+
+.paragraph {
+    transition: 300ms;
+}
